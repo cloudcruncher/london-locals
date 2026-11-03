@@ -25,7 +25,7 @@ INDEX = f"""
 <canvas id="map" role="img" aria-label="Animated dot map of every food and drink premises in London"></canvas>
 <div class="tip" id="tip"></div>
 <div class="mapnote">Every dot is a real food and drink premises (FSA register). Orange: launch boroughs. Hover or tap to explore.</div>
-<div class="phone" aria-hidden="true"><div class="scr"><div class="pass"><b>Locals pass</b>Verified resident<div class="qr"></div></div><div class="mini"><i>Example</i> Free pastry with any coffee</div><div class="mini"><i>Example</i> First class free</div><div class="mini"><i>Example</i> 2-for-1 Tuesdays</div></div></div>
+<div class="phone" aria-hidden="true"><div class="scr"><div class="pass"><b>Doorstep Club pass</b>Verified resident<div class="qr"></div></div><div class="mini"><i>Example</i> Free pastry with any coffee</div><div class="mini"><i>Example</i> First class free</div><div class="mini"><i>Example</i> 2-for-1 Tuesdays</div></div></div>
 </div>
 </div></section>
 <div class="marquee" aria-hidden="true"><div><span>Cafés</span><span>Pubs and bars</span><span>Restaurants</span><span>Gyms and studios</span><span>Salons and barbers</span><span>Bookshops</span><span>Cinemas and theatres</span><span>Classes and workshops</span><span>Markets</span><span>Cafés</span><span>Pubs and bars</span><span>Restaurants</span><span>Gyms and studios</span><span>Salons and barbers</span><span>Bookshops</span><span>Cinemas and theatres</span><span>Classes and workshops</span><span>Markets</span></div></div>
@@ -46,7 +46,7 @@ INDEX = f"""
 
 <section id="offers" style="background:var(--paper)"><div class="wrap">
 <span class="num">DEALS NEAR YOU</span><h2 class="reveal">Real offers, already out there.</h2>
-<p class="lead">Venues in Hackney, Lewisham and Lambeth already advertise these deals publicly. They are not Locals partners and have not endorsed Locals. Confirm with the venue before you go.</p>
+<p class="lead">Venues in Hackney, Lewisham and Lambeth already advertise these deals publicly. They are not Doorstep Club partners and have not endorsed Doorstep Club. Confirm with the venue before you go.</p>
 <div class="dir" id="teaser" aria-live="polite"></div>
 <p style="margin-top:1.5rem"><a class="btn" href="offers.html">See all local offers</a></p>
 <h3 style="margin-top:3rem">Resident Days <span class="fine">(planned, no venues confirmed yet)</span></h3>
@@ -92,7 +92,7 @@ INDEX = f"""
 <div class="row"><label>Postcode<input name="postcode" autocomplete="postal-code" required></label>
 <label>Borough<select name="borough" id="bsel"><option>Hackney</option><option>Lewisham</option><option>Lambeth</option><option>Another London borough</option></select></label></div>
 <input name="website" tabindex="-1" autocomplete="off" style="position:absolute;left:-9999px" aria-hidden="true">
-<label style="font-weight:400;display:flex;gap:.6rem"><input type="checkbox" name="consent" required style="width:auto">I agree to be emailed about Locals. See the <a href="privacy.html">privacy notice</a>.</label>
+<label style="font-weight:400;display:flex;gap:.6rem"><input type="checkbox" name="consent" required style="width:auto">I agree to be emailed about Doorstep Club. See the <a href="privacy.html">privacy notice</a>.</label>
 <button class="btn" type="submit">Join the list</button>
 <div class="msg" role="status"></div>
 </form>
@@ -157,7 +157,7 @@ BUSINESS = """
 <label>Type<select name="type"><option>Café or bakery</option><option>Restaurant or takeaway</option><option>Pub or bar</option><option>Gym or studio</option><option>Salon or barber</option><option>Shop</option><option>Venue or attraction</option><option>Other</option></select></label>
 <label>What could you offer? (optional)<textarea name="offer" rows="3"></textarea></label>
 <input name="website" tabindex="-1" autocomplete="off" style="position:absolute;left:-9999px" aria-hidden="true">
-<label style="font-weight:400;display:flex;gap:.6rem"><input type="checkbox" name="consent" required style="width:auto">I agree to be contacted about Locals. See the <a href="privacy.html">privacy notice</a>.</label>
+<label style="font-weight:400;display:flex;gap:.6rem"><input type="checkbox" name="consent" required style="width:auto">I agree to be contacted about Doorstep Club. See the <a href="privacy.html">privacy notice</a>.</label>
 <button class="btn" type="submit">Send application</button><div class="msg" role="status"></div>
 </form>
 </div></section>
@@ -173,7 +173,7 @@ BUSINESS = """
   const spend=S.vis*S.avg, listPrice=S.avg/(1-S.dis/100), disc=S.vis*(listPrice-S.avg);
   const extra=spend*S.neu/100*S.mar/100, fee=S.fee==1?39:S.fee==2?spend*.02:0, net=extra-disc-fee;
   const g=n=>(n<0?'-':'')+'£'+Math.round(Math.abs(n)).toLocaleString('en-GB');
-  document.getElementById('roiout').innerHTML=`<div><b>${g(spend)}</b>spend through the pass</div><div><b>${g(extra)}</b>extra margin from new or off-peak customers</div><div><b class="neg">-${g(disc)}</b>discounts given</div><div><b class="neg">-${g(fee)}</b>Locals fee</div><div><b class="${net>=0?'pos':'neg'}">${g(net)}</b>net per month</div>`;
+  document.getElementById('roiout').innerHTML=`<div><b>${g(spend)}</b>spend through the pass</div><div><b>${g(extra)}</b>extra margin from new or off-peak customers</div><div><b class="neg">-${g(disc)}</b>discounts given</div><div><b class="neg">-${g(fee)}</b>Doorstep Club fee</div><div><b class="${net>=0?'pos':'neg'}">${g(net)}</b>net per month</div>`;
   document.getElementById('roinote').textContent=net>=0?'It pays at these settings. The lever that matters most is how many redemptions are genuinely new or off-peak customers.':'It does not pay at these settings. Lower the discount, restrict to quiet times or first visits, or only count customers you would not have had anyway.';
  }
  calc();
@@ -212,7 +212,7 @@ MONEY = """
 <div class="hl" style="grid-template-columns:1fr 1fr">
 <div><small>Residents save</small><b id="w_res" class="pos">&hellip;</b></div>
 <div><small>Venues keep (net)</small><b id="w_biz">&hellip;</b></div>
-<div><small>Locals revenue</small><b id="w_us">&hellip;</b></div>
+<div><small>Doorstep Club revenue</small><b id="w_us">&hellip;</b></div>
 <div><small>Spent locally via pass</small><b id="w_track">&hellip;</b></div>
 </div><p class="note" id="bizNote"></p></div>
 </div></section>
@@ -236,7 +236,7 @@ OFFERS = """
 <section class="pagehead"><div class="wrap">
 <span class="num">LIVE DIRECTORY</span><h1>Real local offers, found for you.</h1>
 <p class="lead">Offers that independent venues in Hackney, Lewisham and Lambeth already advertise publicly. Every card links to the venue's own page so you can check it.</p>
-<p class="fine">These venues are not Locals partners yet and have not paid or asked to be listed. Offers change: always confirm with the venue. Venue owner? <a href="business.html#apply">Claim your listing</a> to edit it, or email <a href="mailto:REMOVAL_EMAIL">REMOVAL_EMAIL</a> to have it removed within 48 hours.</p>
+<p class="fine">These venues are not Doorstep Club partners yet and have not paid or asked to be listed. Offers change: always confirm with the venue. Venue owner? <a href="business.html#apply">Claim your listing</a> to edit it, or email <a href="mailto:REMOVAL_EMAIL">REMOVAL_EMAIL</a> to have it removed within 48 hours.</p>
 </div></section>
 <section><div class="wrap">
 <div class="chips" id="bchips" role="group" aria-label="Borough"></div>
@@ -255,8 +255,8 @@ PRIVACY = """
 <h1 style="font-size:2.6rem">Privacy notice (draft)</h1>
 <p class="note"><b>Early-access notice. Not yet legally reviewed.</b> <span id="ctrl">Data controller: Robin Saini, sole trader, London. Contact: REMOVAL_EMAIL. ICO registration number: [to be added once registered].</span></p>
 <h3>What we collect</h3><p>Name, email, postcode and borough (residents); business name, contact, postcode and type (businesses). Nothing else on this site collects personal data. The site sets no cookies and uses no advertising trackers. If privacy-friendly, cookieless analytics (Plausible) is switched on, this notice will say so. Sign-up forms are processed by our form provider, named here before launch. Not used: third-party trackers. Our web host (GitHub Pages) processes visitor IP addresses in its server logs. If a form backend is not yet connected, a submission is held only in your own browser storage.</p>
-<h3>Why</h3><p>To tell you when Locals launches in your borough, to decide launch order, and to contact businesses who applied. Legal basis: your consent. You can withdraw it at any time. When the full service launches, businesses will see aggregated redemption counts and spend; any further disclosure of who redeemed will be covered by an updated notice before it happens.</p>
-<h3>Who sees it</h3><p>Only the Locals team and our form and email providers acting on our instructions. We will never sell personal data. Sponsors and councils receive anonymised, aggregated figures only.</p>
+<h3>Why</h3><p>To tell you when Doorstep Club launches in your borough, to decide launch order, and to contact businesses who applied. Legal basis: your consent. You can withdraw it at any time. When the full service launches, businesses will see aggregated redemption counts and spend; any further disclosure of who redeemed will be covered by an updated notice before it happens.</p>
+<h3>Who sees it</h3><p>Only the Doorstep Club team and our form and email providers acting on our instructions. We will never sell personal data. Sponsors and councils receive anonymised, aggregated figures only.</p>
 <h3>Keeping it</h3><p>Until launch plus 12 months, or until you ask us to delete it.</p>
 <h3>Your rights</h3><p>Access, correction, deletion, objection, and complaint to the Information Commissioner's Office.</p>
 </div></section></main>
@@ -271,29 +271,29 @@ NOTFOUND = """
 
 pages = {
     "index.html": (
-        "Locals: free rewards for London residents, from your own high street",
+        "Doorstep Club: free rewards for London residents, from your own high street",
         "Verified-resident rewards from local businesses. Launching in Hackney, Lewisham and Lambeth.",
         INDEX,
     ),
     "business.html": (
-        "Locals for businesses: new local customers, with proof",
+        "Doorstep Club for businesses: new local customers, with proof",
         "Offer deals to verified residents of your borough and see exactly what it earns you.",
         BUSINESS,
     ),
     "money.html": (
-        "Locals: the money model",
+        "Doorstep Club: the money model",
         "Partner briefing: modelled business case built on real London venue data.",
         MONEY,
     ),
     "offers.html": (
-        "Locals: real local offers in Hackney, Lewisham and Lambeth",
+        "Doorstep Club: real local offers in Hackney, Lewisham and Lambeth",
         "Publicly advertised offers from independent London venues, each linked to its source.",
         OFFERS,
     ),
-    "404.html": ("Locals: page not found", "Page not found.", NOTFOUND),
+    "404.html": ("Doorstep Club: page not found", "Page not found.", NOTFOUND),
     "privacy.html": (
-        "Locals: privacy notice (draft)",
-        "How Locals handles your data.",
+        "Doorstep Club: privacy notice (draft)",
+        "How Doorstep Club handles your data.",
         PRIVACY,
     ),
 }

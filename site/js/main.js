@@ -33,7 +33,7 @@
         if(ep){const r=await fetch(ep,{method:'POST',headers:{'Content-Type':'application/json',Accept:'application/json'},body:JSON.stringify(data)});if(!r.ok)throw new Error(r.status);
           box.textContent='Thank you, you are on the list. We will email you before your borough launches.'}
         else{const to=window.LOCALS.CONTACT_EMAIL;const body=Object.entries(data).filter(([k])=>k!=='at').map(([k,v])=>k+': '+v).join('\n');
-          location.href='mailto:'+to+'?subject='+encodeURIComponent('Locals early access: '+data.kind)+'&body='+encodeURIComponent(body);
+          location.href='mailto:'+to+'?subject='+encodeURIComponent('Doorstep Club early access: '+data.kind)+'&body='+encodeURIComponent(body);
           box.textContent='Your email app should open with your details ready. Press send to join the list.'}
         box.classList.add('show');f.reset();
       }catch(err){box.textContent='Something went wrong. Please try again.';box.classList.add('show')}finally{if(sb)sb.disabled=false}
