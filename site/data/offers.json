@@ -178,6 +178,28 @@
    "checked_on": "2026-11-03"
   },
   {
+   "name": "The Laundry Brixton",
+   "borough": "Lambeth",
+   "neighbourhood": "Brixton",
+   "type": "Restaurant",
+   "offer_title": "L'Apero happy hour weekdays 5-7pm",
+   "offer_detail": "Weekday 5-7pm window with £10 cocktails, £6 pints and £6 house wine.",
+   "conditions": "Mon-Fri 5-7pm",
+   "source_url": "https://thelaundrybrixton.com/happy-hour-in-brixton",
+   "checked_on": "2026-11-03"
+  },
+  {
+   "name": "The Laundry Brixton",
+   "borough": "Lambeth",
+   "neighbourhood": "Brixton",
+   "type": "Restaurant",
+   "offer_title": "Laundry Locals: 50% off food and drink",
+   "offer_detail": "Local sign-up scheme; quote the code when booking for half off the whole food and drink bill on weekdays.",
+   "conditions": "Mon-Fri all day; email sign-up; see terms page",
+   "source_url": "https://thelaundrybrixton.com/laundry-locals",
+   "checked_on": "2026-11-03"
+  },
+  {
    "name": "The Stonhouse",
    "borough": "Lambeth",
    "neighbourhood": "Clapham",
@@ -244,6 +266,28 @@
    "checked_on": "2026-11-03"
   },
   {
+   "name": "Tropix London",
+   "borough": "Lambeth",
+   "neighbourhood": "Clapham",
+   "type": "Bar",
+   "offer_title": "2-4-1 cocktails and pints happy hour",
+   "offer_detail": "Two-for-one cocktails and beer pints Mon-Thu 5-8pm, Fri and weekends until 7pm.",
+   "conditions": "Times as listed; check site",
+   "source_url": "https://tropixlondon.com/events",
+   "checked_on": "2026-11-03"
+  },
+  {
+   "name": "Tropix London",
+   "borough": "Lambeth",
+   "neighbourhood": "Clapham",
+   "type": "Bar",
+   "offer_title": "2-4-1 mojitos every Monday",
+   "offer_detail": "Two-for-one mojitos until midnight on Mondays, with 20+ flavours.",
+   "conditions": "Mondays",
+   "source_url": "https://tropixlondon.com/events",
+   "checked_on": "2026-11-03"
+  },
+  {
    "name": "Venn St Records",
    "borough": "Lambeth",
    "neighbourhood": "Clapham",
@@ -266,6 +310,17 @@
    "checked_on": "2026-11-03"
   },
   {
+   "name": "Casa Linda",
+   "borough": "Lewisham",
+   "neighbourhood": "Lee",
+   "type": "Restaurant",
+   "offer_title": "Lunch: 2 courses 15, 3 courses 20",
+   "offer_detail": "Homepage advertises a lunch offer of two courses for £15 or three for £20 at this Italian all-day diner.",
+   "conditions": "Lunch hours; check venue for days",
+   "source_url": "https://www.casa-linda.co.uk/",
+   "checked_on": "2026-11-03"
+  },
+  {
    "name": "Ladywell Tavern",
    "borough": "Lewisham",
    "neighbourhood": "Ladywell",
@@ -274,6 +329,39 @@
    "offer_detail": "The pub advertises discounted pints, wines and spirits all day, Monday to Thursday, plus weekday lunch deals.",
    "conditions": "Prices not listed on the page; weekdays Mon-Thu only.",
    "source_url": "https://ladywell.pub/drinks-deals",
+   "checked_on": "2026-11-03"
+  },
+  {
+   "name": "Lee Tandoori",
+   "borough": "Lewisham",
+   "neighbourhood": "Lee",
+   "type": "Restaurant",
+   "offer_title": "20% off online orders",
+   "offer_detail": "Homepage banner advertises 20% off all orders placed through the restaurant's own online ordering.",
+   "conditions": "Online orders only",
+   "source_url": "https://www.leetandoori.uk/",
+   "checked_on": "2026-11-03"
+  },
+  {
+   "name": "Mekan Restaurant",
+   "borough": "Lewisham",
+   "neighbourhood": "Catford",
+   "type": "Restaurant",
+   "offer_title": "Weekday lunch menu, 2 courses from 12.95",
+   "offer_detail": "Two-course lunch £12.95 or three courses £14.95, Turkish menu, served Monday to Friday noon to 4pm.",
+   "conditions": "Mon-Fri 12-4pm",
+   "source_url": "https://mekancatford.co.uk/lunch-menu/",
+   "checked_on": "2026-11-03"
+  },
+  {
+   "name": "Panas Indian Restaurant",
+   "borough": "Lewisham",
+   "neighbourhood": "Blackheath",
+   "type": "Restaurant",
+   "offer_title": "Thali set lunch Monday to Saturday",
+   "offer_detail": "Daily set lunch of Nepalese and Indian dishes from the fine dining menu, noon to 4pm.",
+   "conditions": "Mon-Sat 12-4pm; see menu page for price",
+   "source_url": "https://panasrestaurant.com/set-lunch-menu",
    "checked_on": "2026-11-03"
   },
   {
@@ -329,6 +417,17 @@
    "offer_detail": "The pub's homepage promotes 'Hello Friday': bottles of Prosecco at a set low price of 25 pounds every Friday.",
    "conditions": "Fridays only; no end date or time window stated.",
    "source_url": "https://www.hareandbillet.com",
+   "checked_on": "2026-11-03"
+  },
+  {
+   "name": "The New Cross Inn (Stocks Bar)",
+   "borough": "Lewisham",
+   "neighbourhood": "New Cross",
+   "type": "Bar",
+   "offer_title": "Two cocktails for 12 pounds nightly",
+   "offer_detail": "Downstairs Stocks Bar lists a 2-for-£12 cocktail deal available every night.",
+   "conditions": "Every night; check venue for exclusions",
+   "source_url": "https://www.newcrossinn.com/stocks-bar/",
    "checked_on": "2026-11-03"
   }
  ]
