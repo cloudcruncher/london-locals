@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Locals: the money model</title>
+<meta name="description" content="Partner briefing: modelled business case built on real London venue data.">
+<meta property="og:title" content="Locals: the money model"><meta property="og:description" content="Partner briefing: modelled business case built on real London venue data."><meta property="og:type" content="website">
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#0f4a3d">
+<meta property="og:image" content="https://cloudcruncher.github.io/london-locals/img/og.png"><meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body class="biz">
+<a class="sr" href="#main">Skip to content</a>
+<header class="top"><div class="wrap">
+<a class="logo" href="index.html" aria-label="Locals home"><svg viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="9" fill="#0f4a3d"/><path d="M16 5c-4.6 0-8 3.4-8 7.8 0 5.3 8 14.2 8 14.2s8-8.9 8-14.2C24 8.4 20.6 5 16 5z" fill="#ff6b4a"/><circle cx="16" cy="12.8" r="3.2" fill="#fbf6ec"/></svg>Locals</a>
+<nav class="main" aria-label="Main"><a href="business.html">Why list</a><a href="business.html#roi">Your ROI</a><a class="aud" href="index.html">&larr; Resident site</a><a class="btn sm" href="business.html#apply">Get listed</a></nav>
+</div></header>
+
+<main id="main">
+<section style="padding-top:3rem"><div class="wrap">
+<span class="eyebrow">The money model</span>
+<h1 style="font-size:clamp(2.2rem,5vw,3.8rem)">Show me the money.</h1>
+<p class="lead">Built on the real number of food and drink venues in each borough (FSA register) and mid-2024 populations for six boroughs (ONS, via citypopulation.de). Everything else is an assumption you can change. The model is deliberately honest: the cautious case loses money.</p>
+<div class="seg" role="group" aria-label="Scenario"><button data-s="cautious" aria-pressed="false">Cautious</button><button data-s="base" aria-pressed="true">Base</button><button data-s="stretch" aria-pressed="false">Stretch</button></div>
+<h3>Boroughs <small class="fine">(first borough starts month 1, then one every 3 months)</small></h3>
+<div class="chips" id="chips"></div>
+<p><button class="chip" id="launch3" type="button">Launch three</button> <button class="chip" id="allLondon" type="button">All of London</button></p>
+</div></section>
+
+<section style="padding-top:0"><div class="wrap">
+<div class="hl three">
+<div><small>Year 1 revenue</small><b id="y1">&hellip;</b></div>
+<div><small>Year 2 revenue</small><b id="y2">&hellip;</b></div>
+<div><small>Year 3 revenue</small><b id="y3">&hellip;</b></div>
+<div><small>Cash you must fund (low point)</small><b id="peak" class="neg">&hellip;</b><small id="peakNote"></small></div>
+<div><small>Monthly revenue covers monthly cost</small><b id="be">&hellip;</b></div>
+<div><small>Cumulative cash back to zero</small><b id="payback">&hellip;</b></div>
+</div>
+<div class="dash"><h4>Cumulative cash, 36 months (green) &middot; annualised revenue (gold dashed) &middot; annualised cost (orange dotted)</h4><div id="chart"></div></div>
+</div></section>
+
+<section style="background:var(--paper)"><div class="wrap split">
+<div><span class="num">WHO PAYS</span><h2>Steady-state revenue: <span id="rev"></span> a year</h2><p>Against running costs of <b id="cost"></b> a year for <b id="nb"></b> boroughs. Steady state means once every borough is a year or more past launch.</p>
+<div id="streams"></div><p class="note" id="mix"></p></div>
+<div><span class="num">WHO WINS</span><h2>Everyone gets paid, or it does not work.</h2>
+<div class="hl" style="grid-template-columns:1fr 1fr">
+<div><small>Residents save</small><b id="w_res" class="pos">&hellip;</b></div>
+<div><small>Venues keep (net)</small><b id="w_biz">&hellip;</b></div>
+<div><small>Locals revenue</small><b id="w_us">&hellip;</b></div>
+<div><small>Spent locally via pass</small><b id="w_track">&hellip;</b></div>
+</div><p class="note" id="bizNote"></p></div>
+</div></section>
+
+<section><div class="wrap">
+<span class="num">TUNE IT</span><h2>Every assumption, in your hands.</h2>
+<div class="ctl" id="sliders"></div>
+<h3 style="margin-top:2.5rem">By borough</h3>
+<div class="tblwrap"><table class="tbl"><thead><tr><th>Borough</th><th>Venues (data)</th><th>Listed</th><th>Members</th><th>Spend via pass</th><th>Revenue</th></tr></thead><tbody id="tbody"></tbody></table></div>
+<p class="fine">* No ONS population retrieved for this borough; 280,000 assumed. Venue counts are real (FSA register, data as of <span class="asof"></span>, 4 food and drink types). Gyms, salons, shops and attractions are not counted yet, so real supply is larger.</p>
+<div class="note"><b>Read this before believing any number.</b> Penetration, conversion, redemption frequency, new-customer share, sponsor and council income are untested assumptions. The first job of the pilot is to replace them with measured values. Costs assume a lean team (about £260k fixed plus £20k per borough) and exclude founder pay beyond that.</div>
+</div></section>
+</main>
+<script src="config.js"></script>
+<script src="js/model.js"></script>
+<script src="js/main.js"></script>
+<script src="js/money.js"></script>
+<footer><div class="wrap">
+<p><b>Locals</b> (working name): verified-resident rewards for London high streets. Early access, launching in Hackney, Lewisham and Lambeth.</p>
+<p class="fine">Map and venue counts: Food Standards Agency hygiene register (Open Government Licence v3.0), processed in the London Pulse project. Not affiliated with the FSA or any council. Offers shown on the home and Offers pages are publicly advertised by venues that are <b>not Locals partners</b>; check with the venue. Locals is independent and not affiliated with any council.</p>
+<p class="fine"><a href="offers.html">Offers</a> &middot; <a href="business.html">For businesses</a> &middot; <a href="privacy.html">Privacy</a></p>
+</div></footer>
+</body></html>

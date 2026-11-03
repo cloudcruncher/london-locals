@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Locals for businesses: new local customers, with proof</title>
+<meta name="description" content="Offer deals to verified residents of your borough and see exactly what it earns you.">
+<meta property="og:title" content="Locals for businesses: new local customers, with proof"><meta property="og:description" content="Offer deals to verified residents of your borough and see exactly what it earns you."><meta property="og:type" content="website">
+
+<meta name="theme-color" content="#0f4a3d">
+<meta property="og:image" content="https://cloudcruncher.github.io/london-locals/img/og.png"><meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body class="biz">
+<a class="sr" href="#main">Skip to content</a>
+<header class="top"><div class="wrap">
+<a class="logo" href="index.html" aria-label="Locals home"><svg viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="9" fill="#0f4a3d"/><path d="M16 5c-4.6 0-8 3.4-8 7.8 0 5.3 8 14.2 8 14.2s8-8.9 8-14.2C24 8.4 20.6 5 16 5z" fill="#ff6b4a"/><circle cx="16" cy="12.8" r="3.2" fill="#fbf6ec"/></svg>Locals</a>
+<nav class="main" aria-label="Main"><a href="business.html">Why list</a><a href="business.html#roi">Your ROI</a><a class="aud" href="index.html">&larr; Resident site</a><a class="btn sm" href="business.html#apply">Get listed</a></nav>
+</div></header>
+
+<main id="main">
+<section style="padding-top:3.5rem"><div class="wrap split">
+<div>
+<span class="eyebrow">For local businesses</span>
+<h1 style="font-size:clamp(2.2rem,5vw,3.8rem)">New customers on your quiet days. Proof it worked.</h1>
+<p class="lead">Offer something to verified residents of your borough. We show you how many residents redeemed, what it cost you and, where you confirm it, what they spent. Free to list; pay only if you want more.</p>
+<div class="cta"><a class="btn" href="#apply">Become a founding partner</a><a class="btn alt" href="#roi">Try the ROI calculator</a></div>
+<p class="fine">Founding partners (first 50 businesses per borough to apply, while places last) will get the Growth tier free for six months from their borough's launch. Terms will be confirmed in writing before you sign up.</p>
+</div>
+<div class="dash"><h4>What you get</h4>
+<div class="bar"><span style="width:auto">&#10003;</span> Verified residents only, with a rotating QR so passes cannot be shared (at launch)</div>
+<div class="bar"><span style="width:auto">&#10003;</span> You set the days, times, cap and first-visit rules</div>
+<div class="bar"><span style="width:auto">&#10003;</span> Scan from any phone. No hardware at launch: scan from any phone</div>
+<div class="bar"><span style="width:auto">&#10003;</span> Dashboard: new vs returning, spend, cost of discounts (at launch)</div>
+<div class="bar"><span style="width:auto">&#10003;</span> Planned: borough monthly email and a monthly featured slot</div></div>
+</div></section>
+
+<section style="background:var(--paper)"><div class="wrap">
+<span class="num">PRICING</span><h2>Start free. Grow when it pays.</h2>
+<div class="steps">
+<div class="card"><h3>Listed</h3><div class="big" style="font:700 2.4rem Georgia,serif">£0</div><p>One offer, your page, scan-to-redeem, basic counts.</p></div>
+<div class="card" style="border-color:var(--coral)"><h3>Growth</h3><div class="big" style="font:700 2.4rem Georgia,serif">£39<small style="font-size:1rem">/month</small></div><p>Several offers, full dashboard, featured slot in the monthly email. Free for six months for founding partners.</p></div>
+<div class="card"><h3>Pay on results</h3><div class="big" style="font:700 2.4rem Georgia,serif">2%</div><p>Of spend tracked through the pass instead of a flat fee. No customers, no bill.</p></div>
+</div>
+<p class="fine">Launch pricing is provisional and may change before public launch.</p>
+</div></section>
+
+<section id="roi"><div class="wrap">
+<span class="num">DOES IT PAY?</span><h2>Work it out for your venue.</h2>
+<div class="ctl" id="roictl"></div>
+<div class="hl" id="roiout"></div>
+<p class="note" id="roinote"></p>
+</div></section>
+
+<section id="apply" style="background:var(--paper)"><div class="wrap split">
+<div><span class="num">APPLY</span><h2>Become a founding partner.</h2><p>Tell us a bit about you. We aim to reply within a few working days and will help you write an offer that works on your quiet days.</p>
+<h3>Offer ideas that protect margin</h3><ul><li>Free coffee with a pastry, Mon to Thu afternoons</li><li>First class free (studios)</li><li>10% off first visit (salons, barbers)</li><li>Kids eat free on Sundays with a paying adult</li></ul></div>
+<form class="f" data-signup="business" novalidate>
+<div class="row"><label>Business name<input name="business" required></label><label>Your name<input name="name" required></label></div>
+<div class="row"><label>Email<input name="email" type="email" required></label><label>Postcode<input name="postcode" required></label></div>
+<label>Type<select name="type"><option>Café or bakery</option><option>Restaurant or takeaway</option><option>Pub or bar</option><option>Gym or studio</option><option>Salon or barber</option><option>Shop</option><option>Venue or attraction</option><option>Other</option></select></label>
+<label>What could you offer? (optional)<textarea name="offer" rows="3"></textarea></label>
+<input name="website" tabindex="-1" autocomplete="off" style="position:absolute;left:-9999px" aria-hidden="true">
+<label style="font-weight:400;display:flex;gap:.6rem"><input type="checkbox" name="consent" required style="width:auto">I agree to be contacted about Locals. See the <a href="privacy.html">privacy notice</a>.</label>
+<button class="btn" type="submit">Send application</button><div class="msg" role="status"></div>
+</form>
+</div></section>
+</main>
+<script src="config.js"></script>
+<script src="js/main.js"></script>
+<script>
+(()=>{
+ const f=[['avg','Average spend per visit (£)',5,120,1,20,v=>'£'+v],['vis','Redemptions per month',5,400,5,60,v=>v],['neu','Share who are new or off-peak customers',0,100,1,45,v=>v+'%'],['dis','Discount you give',0,50,1,15,v=>v+'%'],['mar','Contribution margin on extra sales',20,80,1,55,v=>v+'%'],['fee','Plan',0,2,1,1,v=>['Listed (free)','Growth £39/mo','Pay 2% of tracked spend'][v]]];
+ const c=document.getElementById('roictl'),S={};
+ f.forEach(([id,l,mn,mx,st,d,fmt])=>{S[id]=d;const e=document.createElement('label');e.innerHTML=`${l}<output></output><input type="range" min="${mn}" max="${mx}" step="${st}" value="${d}">`;c.appendChild(e);
+  const o=e.querySelector('output'),i=e.querySelector('input');const u=()=>{S[id]=+i.value;o.textContent=fmt(S[id]);calc()};i.oninput=u;o.textContent=fmt(d)});
+ function calc(){
+  const spend=S.vis*S.avg, listPrice=S.avg/(1-S.dis/100), disc=S.vis*(listPrice-S.avg);
+  const extra=spend*S.neu/100*S.mar/100, fee=S.fee==1?39:S.fee==2?spend*.02:0, net=extra-disc-fee;
+  const g=n=>(n<0?'-':'')+'£'+Math.round(Math.abs(n)).toLocaleString('en-GB');
+  document.getElementById('roiout').innerHTML=`<div><b>${g(spend)}</b>spend through the pass</div><div><b>${g(extra)}</b>extra margin from new or off-peak customers</div><div><b class="neg">-${g(disc)}</b>discounts given</div><div><b class="neg">-${g(fee)}</b>Locals fee</div><div><b class="${net>=0?'pos':'neg'}">${g(net)}</b>net per month</div>`;
+  document.getElementById('roinote').textContent=net>=0?'It pays at these settings. The lever that matters most is how many redemptions are genuinely new or off-peak customers.':'It does not pay at these settings. Lower the discount, restrict to quiet times or first visits, or only count customers you would not have had anyway.';
+ }
+ calc();
+})();
+</script>
+<footer><div class="wrap">
+<p><b>Locals</b> (working name): verified-resident rewards for London high streets. Early access, launching in Hackney, Lewisham and Lambeth.</p>
+<p class="fine">Map and venue counts: Food Standards Agency hygiene register (Open Government Licence v3.0), processed in the London Pulse project. Not affiliated with the FSA or any council. Offers shown on the home and Offers pages are publicly advertised by venues that are <b>not Locals partners</b>; check with the venue. Locals is independent and not affiliated with any council.</p>
+<p class="fine"><a href="offers.html">Offers</a> &middot; <a href="business.html">For businesses</a> &middot; <a href="privacy.html">Privacy</a></p>
+</div></footer>
+</body></html>

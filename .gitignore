@@ -1,0 +1,7 @@
+internal/
+plan.html
+playbook.html
+.ruff_cache/
+.playwright-mcp/
+*.png
+!site/img/*.png

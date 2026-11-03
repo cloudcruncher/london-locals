@@ -1,0 +1,41 @@
+name: Deploy site
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+concurrency:
+  group: pages
+  cancel-in-progress: false
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+    steps:
+      - uses: actions/checkout@v4
+      - name: Model tests
+        run: node tests/test_model.js
+      - name: Pages must be in sync with their source
+        run: |
+          python3 scripts/build_pages.py
+          test -z "$(git status --porcelain site/)" || (git status --porcelain site/; echo "Run scripts/build_pages.py and commit the result"; exit 1)
+      - name: Launch config checks
+        run: |
+          if grep -Eq 'FORM_ENDPOINT:[[:space:]]*(""|'"''"')' site/config.js; then
+            echo "::warning::FORM_ENDPOINT empty: forms fall back to email"
+          fi
+          if grep -Eq '(CONTACT_EMAIL|SITE_URL):[[:space:]]*(""|'"''"')' site/config.js; then
+            echo "CONTACT_EMAIL and SITE_URL must be set in site/config.js."; exit 1
+          fi
+          if grep -q 'to be added once registered' site/privacy.html; then
+            echo "::warning::ICO registration number still pending in privacy notice"
+          fi
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+      - uses: actions/deploy-pages@v4

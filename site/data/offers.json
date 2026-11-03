@@ -1,0 +1,313 @@
+{
+ "checked_on": "2026-11-03",
+ "offers": [
+  {
+   "name": "Five Points Brewery Taproom",
+   "borough": "Hackney",
+   "neighbourhood": "Hackney (Mare Street)",
+   "type": "Pub",
+   "offer_title": "All drinks 5 pounds on Thursdays",
+   "offer_detail": "Five Points pints, house wine, spirit and mixer and cocktails all 5 pounds.",
+   "conditions": "Thu 5-11pm",
+   "source_url": "https://www.designmynight.com/london/bars/hackney/the-five-points-brewery-taproom-and-courtyard/happy-hour-all-evening-every-thursday",
+   "checked_on": "2026-11-03"
+  },
+  {
+   "name": "Grow",
+   "borough": "Hackney",
+   "neighbourhood": "Hackney Wick",
+   "type": "Bar",
+   "offer_title": "Midweek happy hour, two lagers for a tenner",
+   "offer_detail": "Reduced organic wines and cocktails, plus two award-winning lagers for 10 pounds.",
+   "conditions": "Tue-Thu 4-6pm",
+   "source_url": "https://www.growhackney.co.uk/happy-hour-grow-hackney-wick",
+   "checked_on": "2026-11-03"
+  },
+  {
+   "name": "Grow",
+   "borough": "Hackney",
+   "neighbourhood": "Hackney Wick",
+   "type": "Bar",
+   "offer_title": "Friday afterwork club: 25% off food",
+   "offer_detail": "Quarter off all food plus extended drinks happy hour on the canalside terrace.",
+   "conditions": "Fri 5-7pm",
+   "source_url": "https://www.growhackney.co.uk/happy-hour-grow-hackney-wick",
+   "checked_on": "2026-11-03"
+  },
+  {
+   "name": "Grow",
+   "borough": "Hackney",
+   "neighbourhood": "Hackney Wick",
+   "type": "Bar",
+   "offer_title": "Weekend brunch spritz happy hour",
+   "offer_detail": "Two spritzes for 15 pounds, or two alcohol-free options for 10 pounds.",
+   "conditions": "Sat-Sun 11am-2pm",
+   "source_url": "https://www.growhackney.co.uk/happy-hour-grow-hackney-wick",
+   "checked_on": "2026-11-03"
+  },
+  {
+   "name": "Grow",
+   "borough": "Hackney",
+   "neighbourhood": "Hackney Wick",
+   "type": "Bar",
+   "offer_title": "NHS staff 10% off drinks",
+   "offer_detail": "NHS staff get a tenth off drinks at the bar.",
+   "conditions": "Show NHS ID at the bar",
+   "source_url": "https://www.growhackney.co.uk/offers",
+   "checked_on": "2026-11-03"
+  },
+  {
+   "name": "Grow",
+   "borough": "Hackney",
+   "neighbourhood": "Hackney Wick",
+   "type": "Bar",
+   "offer_title": "Student 10% off drinks",
+   "offer_detail": "Students get a tenth off drinks.",
+   "conditions": "Show student ID",
+   "source_url": "https://www.growhackney.co.uk/offers",
+   "checked_on": "2026-11-03"
+  },
+  {
+   "name": "Grow",
+   "borough": "Hackney",
+   "neighbourhood": "Hackney Wick",
+   "type": "Bar",
+   "offer_title": "10% off for E3/E5/E9/E15/E20 residents and workers",
+   "offer_detail": "Residents or workers in E3, E5, E9, E15 or E20 get 10% off food and drink.",
+   "conditions": "Sign up via table QR code; must live/work in listed postcodes",
+   "source_url": "https://www.growhackney.co.uk/offers",
+   "checked_on": "2026-11-03"
+  },
+  {
+   "name": "Ridley Road Market Bar",
+   "borough": "Hackney",
+   "neighbourhood": "Dalston",
+   "type": "Bar",
+   "offer_title": "Two drinks for 12 pounds happy hour",
+   "offer_detail": "Happy hour pair of drinks for 12 pounds; the page does not list which drinks.",
+   "conditions": "Tue-Fri 6-9pm",
+   "source_url": "https://www.ridleyroadmarketbar.com/",
+   "checked_on": "2026-11-03"
+  },
+  {
+   "name": "The Old Ship",
+   "borough": "Hackney",
+   "neighbourhood": "Hackney Central",
+   "type": "Pub",
+   "offer_title": "Burger Monday",
+   "offer_detail": "Burger deal advertised as '2-4-20 pounds' all day on Mondays.",
+   "conditions": "Mondays, within kitchen hours",
+   "source_url": "https://www.urbanpubsandbars.com/venues/the-old-ship",
+   "checked_on": "2026-11-03"
+  },
+  {
+   "name": "The Three Compasses",
+   "borough": "Hackney",
+   "neighbourhood": "Dalston",
+   "type": "Pub",
+   "offer_title": "Twice-daily happy hour",
+   "offer_detail": "Pints 4.90, two cocktails 14, house wine 5.50, house spirit and mixer 4.",
+   "conditions": "Daily 6-7pm and 10-11pm",
+   "source_url": "https://www.3compasses.com/drinks-menu",
+   "checked_on": "2026-11-03"
+  },
+  {
+   "name": "Well Street Pizza (London Fields pub)",
+   "borough": "Hackney",
+   "neighbourhood": "London Fields",
+   "type": "Pub",
+   "offer_title": "Pizza and a pint for 15 pounds",
+   "offer_detail": "Pizza with a pint at a set 15 pound price early in the week.",
+   "conditions": "Mon-Tue",
+   "source_url": "https://www.urbanpubsandbars.com/venues/the-london-fields",
+   "checked_on": "2026-11-03"
+  },
+  {
+   "name": "Well Street Pizza (London Fields pub)",
+   "borough": "Hackney",
+   "neighbourhood": "London Fields",
+   "type": "Pub",
+   "offer_title": "Midweek margs: pizza plus margarita",
+   "offer_detail": "Margherita pizza and a choice of margarita at 7 pounds each.",
+   "conditions": "Wed-Thu",
+   "source_url": "https://www.urbanpubsandbars.com/venues/the-london-fields",
+   "checked_on": "2026-11-03"
+  },
+  {
+   "name": "Cher Thai",
+   "borough": "Lambeth",
+   "neighbourhood": "Clapham Old Town",
+   "type": "Restaurant",
+   "offer_title": "Weekday lunch, two courses 12.95",
+   "offer_detail": "Starter plus main for 12.95 pounds, or a single main for 9.50.",
+   "conditions": "Tue-Fri 12-3pm",
+   "source_url": "https://www.cherthailondon.co.uk",
+   "checked_on": "2026-11-03"
+  },
+  {
+   "name": "Elm Park Tavern",
+   "borough": "Lambeth",
+   "neighbourhood": "Brixton / Tulse Hill",
+   "type": "Pub",
+   "offer_title": "Weekday happy hour 6 pound cocktails",
+   "offer_detail": "Cocktails at 6 pounds during the weekday happy hour; times not given.",
+   "conditions": "Weekdays",
+   "source_url": "https://www.designmynight.com/london/brixton-pubs",
+   "checked_on": "2026-11-03"
+  },
+  {
+   "name": "Paddy's Yard",
+   "borough": "Lambeth",
+   "neighbourhood": "Brixton",
+   "type": "Bar",
+   "offer_title": "Weekday 2-for-1 cocktails",
+   "offer_detail": "Two-for-one cocktails across the menu; Monday pints 5 pounds.",
+   "conditions": "Mon-Fri 7-9pm",
+   "source_url": "https://www.designmynight.com/london/happy-hour-brixton",
+   "checked_on": "2026-11-03"
+  },
+  {
+   "name": "Pergola Brixton",
+   "borough": "Lambeth",
+   "neighbourhood": "Brixton",
+   "type": "Bar",
+   "offer_title": "Happy hour 7 pound cocktails, 6 pound beers",
+   "offer_detail": "Discounted cocktails and beers on four days a week.",
+   "conditions": "Wed all evening, Thu 5-7pm, Fri 4-7pm, Sun 3-6pm",
+   "source_url": "https://www.pergolabrixton.co.uk/events/happy-hour",
+   "checked_on": "2026-11-03"
+  },
+  {
+   "name": "The Stonhouse",
+   "borough": "Lambeth",
+   "neighbourhood": "Clapham",
+   "type": "Pub",
+   "offer_title": "Burger and pint Monday, 15 pounds",
+   "offer_detail": "Beef or plant-based burger with fries and a pint of house draught for 15 pounds.",
+   "conditions": "Mondays",
+   "source_url": "https://www.thestonhouse.co.uk/offers/",
+   "checked_on": "2026-11-03"
+  },
+  {
+   "name": "The Stonhouse",
+   "borough": "Lambeth",
+   "neighbourhood": "Clapham",
+   "type": "Pub",
+   "offer_title": "Half Price Tuesday: 50% off food",
+   "offer_detail": "Half off food all day; register on the website and show the voucher.",
+   "conditions": "Tuesdays, not December",
+   "source_url": "https://www.thestonhouse.co.uk/offers/",
+   "checked_on": "2026-11-03"
+  },
+  {
+   "name": "The Stonhouse",
+   "borough": "Lambeth",
+   "neighbourhood": "Clapham",
+   "type": "Pub",
+   "offer_title": "Steak Wednesday for two, 50 pounds",
+   "offer_detail": "Two sirloin steaks, chips, salad and a bottle of Malbec or house wine for 50 pounds.",
+   "conditions": "Wednesdays",
+   "source_url": "https://www.thestonhouse.co.uk/offers/",
+   "checked_on": "2026-11-03"
+  },
+  {
+   "name": "The Stonhouse",
+   "borough": "Lambeth",
+   "neighbourhood": "Clapham",
+   "type": "Pub",
+   "offer_title": "Pie and pint Thursday, 18 pounds",
+   "offer_detail": "Homemade pie with sides and a pint or house wine for 18 pounds.",
+   "conditions": "Thursdays",
+   "source_url": "https://www.thestonhouse.co.uk/offers/",
+   "checked_on": "2026-11-03"
+  },
+  {
+   "name": "The Stonhouse",
+   "borough": "Lambeth",
+   "neighbourhood": "Clapham",
+   "type": "Pub",
+   "offer_title": "2-4-1 drinks early evening",
+   "offer_detail": "Two-for-one on selected pints, wine, prosecco, margaritas and house spirits.",
+   "conditions": "Mon-Fri 5-7pm",
+   "source_url": "https://www.thestonhouse.co.uk/offers/",
+   "checked_on": "2026-11-03"
+  },
+  {
+   "name": "The Stonhouse",
+   "borough": "Lambeth",
+   "neighbourhood": "Clapham",
+   "type": "Pub",
+   "offer_title": "Blue Light workers 33% off food",
+   "offer_detail": "Blue Light card holders get a third off the food bill after signing up for a voucher.",
+   "conditions": "Voucher plus Blue Light card; not December or bank holidays",
+   "source_url": "https://www.thestonhouse.co.uk/offers/",
+   "checked_on": "2026-11-03"
+  },
+  {
+   "name": "Venn St Records",
+   "borough": "Lambeth",
+   "neighbourhood": "Clapham",
+   "type": "Bar",
+   "offer_title": "Daily 2-for-1 cocktail happy hour",
+   "offer_detail": "Two-for-one cocktails every day.",
+   "conditions": "Daily 5-8pm",
+   "source_url": "https://www.vennstreetrecords.com",
+   "checked_on": "2026-11-03"
+  },
+  {
+   "name": "Venn St Records",
+   "borough": "Lambeth",
+   "neighbourhood": "Clapham",
+   "type": "Bar",
+   "offer_title": "Thursday drinks deals",
+   "offer_detail": "Pints, house wine and spirit and mixer at 6 pounds, cocktails 7 pounds.",
+   "conditions": "Thursdays; time not stated",
+   "source_url": "https://www.vennstreetrecords.com",
+   "checked_on": "2026-11-03"
+  },
+  {
+   "name": "The Brookmill",
+   "borough": "Lewisham",
+   "neighbourhood": "Deptford / St John's",
+   "type": "Pub",
+   "offer_title": "Wednesday 2-for-1 burgers",
+   "offer_detail": "Every burger on the menu is two for the price of one.",
+   "conditions": "Wed from 5pm",
+   "source_url": "https://www.thebrookmill.co.uk/",
+   "checked_on": "2026-11-03"
+  },
+  {
+   "name": "The Brookmill",
+   "borough": "Lewisham",
+   "neighbourhood": "Deptford / St John's",
+   "type": "Pub",
+   "offer_title": "Thursday steak and chips 12 pounds",
+   "offer_detail": "Steak and chips for 12 pounds, with cocktails from 7 or wine at 3 as add-ons.",
+   "conditions": "Thursdays",
+   "source_url": "https://www.thebrookmill.co.uk/",
+   "checked_on": "2026-11-03"
+  },
+  {
+   "name": "The Brookmill",
+   "borough": "Lewisham",
+   "neighbourhood": "Deptford / St John's",
+   "type": "Pub",
+   "offer_title": "Friday fish and chips 12 pounds",
+   "offer_detail": "Fish and chips priced at 12 pounds.",
+   "conditions": "Fri from 5pm",
+   "source_url": "https://www.thebrookmill.co.uk/",
+   "checked_on": "2026-11-03"
+  },
+  {
+   "name": "The Brookmill",
+   "borough": "Lewisham",
+   "neighbourhood": "Deptford / St John's",
+   "type": "Pub",
+   "offer_title": "Friday late happy hour",
+   "offer_detail": "Late-night happy hour on drinks; the page gives no prices.",
+   "conditions": "Fri 8-11pm",
+   "source_url": "https://www.thebrookmill.co.uk/",
+   "checked_on": "2026-11-03"
+  }
+ ]
+}
