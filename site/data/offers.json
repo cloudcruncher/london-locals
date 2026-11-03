@@ -266,6 +266,17 @@
    "checked_on": "2026-11-03"
   },
   {
+   "name": "Ladywell Tavern",
+   "borough": "Lewisham",
+   "neighbourhood": "Ladywell",
+   "type": "Pub",
+   "offer_title": "Cheap drinks all day Monday to Thursday",
+   "offer_detail": "The pub advertises discounted pints, wines and spirits all day, Monday to Thursday, plus weekday lunch deals.",
+   "conditions": "Prices not listed on the page; weekdays Mon-Thu only.",
+   "source_url": "https://ladywell.pub/drinks-deals",
+   "checked_on": "2026-11-03"
+  },
+  {
    "name": "The Brookmill",
    "borough": "Lewisham",
    "neighbourhood": "Deptford / St John's",
@@ -307,6 +318,17 @@
    "offer_detail": "Late-night happy hour on drinks; the page gives no prices.",
    "conditions": "Fri 8-11pm",
    "source_url": "https://www.thebrookmill.co.uk/",
+   "checked_on": "2026-11-03"
+  },
+  {
+   "name": "The Hare & Billet",
+   "borough": "Lewisham",
+   "neighbourhood": "Blackheath",
+   "type": "Pub",
+   "offer_title": "Discounted Prosecco bottles every Friday",
+   "offer_detail": "The pub's homepage promotes 'Hello Friday': bottles of Prosecco at a set low price of 25 pounds every Friday.",
+   "conditions": "Fridays only; no end date or time window stated.",
+   "source_url": "https://www.hareandbillet.com",
    "checked_on": "2026-11-03"
   }
  ]

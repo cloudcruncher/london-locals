@@ -6,6 +6,7 @@
     // one offer per venue, spread across boroughs
     ['Hackney','Lambeth','Lewisham','Hackney','Lambeth','Lewisham'].forEach(b=>{
       const o=j.offers.find(x=>x.borough===b&&!seen.has(x.name));if(o){seen.add(o.name);pick.push(o)}});
+    j.offers.forEach(o=>{if(pick.length<6&&!seen.has(o.name)){seen.add(o.name);pick.push(o)}});
     pick.forEach(o=>{const c=el('article','dcard');
       c.appendChild(el('div','meta',o.type+' · '+o.neighbourhood+', '+o.borough));
       c.appendChild(el('h3',null,o.name));c.appendChild(el('div','ot',o.offer_title));c.appendChild(el('div',null,o.offer_detail));
